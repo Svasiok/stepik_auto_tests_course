@@ -15,7 +15,7 @@ browser = webdriver.Chrome()
 browser.get("http://suninjuly.github.io/explicit_wait2.html")
 
 
-    # говорим Selenium проверять в течение 5 секунд, пока кнопка не станет кликабельной
+    # говорим Selenium проверять в течение 12 секунд, пока цена не станет такой, какая нам нужно.
 
 try:
     button = WebDriverWait(browser, 12).until(
